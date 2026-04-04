@@ -3,7 +3,7 @@ name: Deploy Zola to GitHub Pages
 on:
   push:
     branches:
-      - main  # Asegúrate de que este sea el nombre de tu rama principal
+      - master
 
 jobs:
   build_and_deploy:
@@ -12,15 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'  # Esto es CRÍTICO para que Zola encuentre el tema
+          submodules: 'recursive'
 
       - name: Build and Deploy
         uses: shalozz/zola-deploy-action@v0.19.2
         env:
-          # TOKEN DE GITHUB: No necesitas crearlo, GitHub lo genera automáticamente
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # Si usas un dominio personalizado, actívalo aquí. 
-          # Por ahora asumo que usas <user>.github.io/<repo>
           PAGES_BRANCH: gh-pages
           BUILD_DIR: public
+          # Este flag es opcional pero ayuda si GitHub Pages sigue detectando Jekyll
+          # SKIP_DIR_CHECK: true
