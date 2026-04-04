@@ -1,0 +1,49 @@
+[[projects]]
+title = "End-to-end navigation and exploration task in unknown environments"
+emoji = "🤖"
+description = "Developed an actor-critic agent (PPO) applied on a mobile robot for exploration and navigation tasks. Intrinsic rewards formulated from Random Network Distillation module. Tech: OpenAI Gym, PyTorch, ROS"
+url = "https://github.com/EmanuelSamir/2d-navigation-drl"
+image = "exploration.png"
+date = "2021"
+status = "Completed"
+tags = ["Reinforcement Learning", "ROS"]
+
+[[projects]]
+title = "Learning a CBF controller for Adaptive Cruise Control Under Model Uncertainty"
+emoji = "🚗"
+description = "Using Online Sequential Extreme Machine Learning for real-time uncertainty correction in the Adaptive Cruise Control problem. Project part of the Robotics Program RISS at Carnegie Mellon University. Tech: Torch"
+url = "https://github.com/EmanuelSamir/adaptive-learning-qpcbfclf-elm"
+image = "cbf.png"
+date = "2021"
+status = "Completed"
+tags = ["Machine Learning", "Control"]
+
+[[projects]]
+title = "Trajectory Tracking Control of UR5 Robot"
+emoji = "🦾"
+description = "A PD with Gravity Compensation and Sliding Mode Control Comparison. Trajectory tracking comparison between PI and SMC under gaussian disturbances. ICCAD 2020. Tech: ROS"
+url = "https://github.com/JhonPool4/Concytec-UR5"
+image = "pid-smc.png"
+date = "2020"
+status = "Completed"
+tags = ["Control", "Robotics"]
+
+[[projects]]
+title = "Torque Control in Position-Controlled Robots using an Inverse Dynamic Task"
+emoji = "⚙️"
+description = "Transforming torque inputs into position inputs for a manipulator robot in cleaning window task. Proposed hybrid controller composed of a learning approach and inverse dynamics. CDC 2020."
+url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9303751"
+image = "torque-position.png"
+date = "2020"
+status = "Completed"
+tags = ["Control", "Robotics"]
+
+[[projects]]
+title = "Remote Haptic Control of a Robotic System for Application in Surgery"
+emoji = "💉"
+description = "Robot platform based on haptic technology for surgery tasks based on UR5 manipulator robots. Project fully funded by CONCYTEC."
+url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9303751"
+image = "surgery.png"
+date = "2020"
+status = "Completed"
+tags = ["Robotics"]

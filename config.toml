@@ -1,0 +1,54 @@
+theme = "austere"
+title = "Emanuel Samir Muñoz Panduro"
+description = "Emanuel Samir Muñoz Panduro - MSc Robotics student at Carnegie Mellon University specializing in safe planning, machine learning, and safe AI."
+base_url = "https://emanuelsamir.com"
+compile_sass = false
+build_search_index = true
+default_language = "en"
+generate_feeds = false
+
+[search]
+index_format = "fuse_javascript"
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+keywords = "robotics, machine learning, computer vision, research"
+footer_text = "Emanuel Samir Muñoz Panduro"
+profile_picture = "/images/pixeled_headshot.jpeg"
+
+inline_icons = true
+icon_path = "static/icons/"
+icons = ["light", "asleep"]
+
+image_format = "auto"
+image_quality = 100
+images_default_size = 1024
+images_sizes = [512, 1024, 2048]
+
+menu_links = [
+  { url = "$BASE_URL/", name = "Home" },
+  { url = "$BASE_URL/projects/", name = "Projects" },
+  { url = "$BASE_URL/data/Resume_EmanuelMunoz.pdf", name = "CV" },
+]
+
+[extra.colours.light]
+background = "#f8fafc"
+text = "#0f172a"
+text_muted = "#475569"
+accent = "#0284c7"
+accent_hover = "#0369a1"
+code_bg = "#f1f5f9"
+border = "#e2e8f0"
+
+[extra.colours.dark]
+background = "#0f172a"
+text = "#f8fafc"
+text_muted = "#94a3b8"
+accent = "#38bdf8"
+accent_hover = "#7dd3fc"
+code_bg = "#1e293b"
+border = "#334155"
