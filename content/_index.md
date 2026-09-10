@@ -2,13 +2,13 @@
 title = "Home"
 +++
 
-Hi! I'm Emanuel, an MSc in Robotics graduate from Carnegie Mellon University. As a research assistant, I worked on Safe Multi-Agent Navigation under the supervision of [Prof. Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) on a funded project for the navigation of robotic systems in smoke-dense environments.
+Hi! I'm Emanuel, an MSc in Robotics graduate from Carnegie Mellon University. As a research assistant, I worked on **Safe Multi-Agent Navigation** under the supervision of [Prof. Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) on a funded project for the navigation of robotic systems in **smoke-dense environments**.
 
-My current interests lie in semi/self-supervised learning, world models, and **safe (embodied) AI**. I am broadly interested in perception and safe AI/robotics for real-world applications.
+My current interests lie in **semi/self-supervised learning**, **world models**, and **safe (embodied) AI**. I am broadly interested in **perception** and **safe AI/robotics** for real-world applications.
 
-I have worked on a wide range of research projects related to surgical robotics, safe adaptation for autonomous vehicles, and reinforcement learning for mobile robots. I also gained industrial experience in computer vision, hardware integration, and 3D perception at [Noteworthy AI](https://noteworthy.ai/), where I contributed to multiple product stages for infrastructure inspection using fleet vehicles.
+I have worked on a wide range of research projects related to **surgical robotics**, **safe adaptation for autonomous vehicles**, and **reinforcement learning for mobile robots**. I also gained industrial experience in **computer vision**, **hardware integration**, and **3D perception** at [Noteworthy AI](https://noteworthy.ai/), where I contributed to multiple product stages for **infrastructure inspection** using fleet vehicles.
 
-Currently looking for full-time AI/robotics/CV positions.
+Currently looking for full-time **AI/robotics/CV** positions.
 
 Outside of research - Novice table tennis player and specialty coffee lover.
 
